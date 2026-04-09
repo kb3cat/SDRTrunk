@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SDRTrunk Dashboard</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #111;
+            color: #eee;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: #222;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 6px;
+            border-bottom: 1px solid #444;
+        }
+
+        tr:hover {
+            background: #333;
+        }
+
+        .enc { color: red; }
+        .clear { color: lightgreen; }
+    </style>
+</head>
+
+<body>
+
+<h1>📡 SDRTrunk Dashboard</h1>
+
+<div class="grid">
+    <div class="card">Total Calls<br><b id="total"></b></div>
+    <div class="card">Talkgroups<br><b id="tgs"></b></div>
+    <div class="card">Radios<br><b id="radios"></b></div>
+    <div class="card">Encrypted %<br><b id="enc"></b></div>
+</div>
+
+<h2>Top Talkgroups</h2>
+<table id="tgTable"></table>
+
+<h2>Recent Calls</h2>
+<table id="callTable"></table>
+
+<script>
+fetch('data/sdtrunk_calls.json')
+.then(res => res.json())
+.then(data => {
+
+    const s = data.summary;
+
+    document.getElementById('total').innerText = s.total_calls;
+    document.getElementById('tgs').innerText = s.unique_tgs;
+    document.getElementById('radios').innerText = s.unique_radios;
+
+    const encPct = Math.round((s.encrypted_calls / s.total_calls) * 100);
+    document.getElementById('enc').innerText = encPct + "%";
+
+    // Top TGs
+    let tgHTML = "<tr><th>TG</th><th>Count</th></tr>";
+    s.top_talkgroups.forEach(t => {
+        tgHTML += `<tr><td>${t[0]}</td><td>${t[1]}</td></tr>`;
+    });
+    document.getElementById('tgTable').innerHTML = tgHTML;
+
+    // Recent calls
+    let callHTML = "<tr><th>Time</th><th>TG</th><th>Radio</th><th>Dur</th><th>Enc</th></tr>";
+
+    data.calls.slice(-50).reverse().forEach(c => {
+        callHTML += `
+        <tr>
+            <td>${c.time}</td>
+            <td>${c.talkgroup || ''}</td>
+            <td>${c.radio_id || ''}</td>
+            <td>${c.duration}</td>
+            <td class="${c.encrypted ? 'enc' : 'clear'}">
+                ${c.encrypted ? 'ENC' : 'CLR'}
+            </td>
+        </tr>`;
+    });
+
+    document.getElementById('callTable').innerHTML = callHTML;
+
+});
+</script>
+
+</body>
+</html>
