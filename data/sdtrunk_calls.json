@@ -1,83 +1,83 @@
 {
   "summary": {
-    "total_calls": 4395,
+    "total_calls": 4517,
     "unique_tgs": 47,
-    "unique_radios": 253,
+    "unique_radios": 257,
     "unique_radio_aliases": 0,
-    "encrypted_calls": 3477,
-    "clear_calls": 918,
+    "encrypted_calls": 3580,
+    "clear_calls": 937,
     "top_talkgroups": [
       [
         12001,
-        900
+        912
       ],
       [
         12002,
-        642
+        664
       ],
       [
         12040,
-        434
+        446
       ],
       [
         32005,
-        399
+        401
       ],
       [
         12055,
         164
       ],
       [
+        12081,
+        154
+      ],
+      [
         12003,
         151
       ],
       [
-        12081,
-        150
-      ],
-      [
         12029,
-        138
+        142
       ],
       [
         22005,
-        131
+        139
       ],
       [
-        12068,
-        124
+        12071,
+        130
       ]
     ],
     "top_talkgroups_by_airtime": [
       {
         "talkgroup": 12001,
-        "airtime_ms": 3651992,
-        "airtime": "60:51"
+        "airtime_ms": 3703779,
+        "airtime": "61:43"
       },
       {
         "talkgroup": 12002,
-        "airtime_ms": 2501379,
-        "airtime": "41:41"
+        "airtime_ms": 2571709,
+        "airtime": "42:51"
       },
       {
         "talkgroup": 12040,
-        "airtime_ms": 1902122,
-        "airtime": "31:42"
+        "airtime_ms": 1953670,
+        "airtime": "32:33"
       },
       {
         "talkgroup": 32005,
-        "airtime_ms": 1879303,
-        "airtime": "31:19"
+        "airtime_ms": 1887718,
+        "airtime": "31:27"
       },
       {
         "talkgroup": 12029,
-        "airtime_ms": 915428,
-        "airtime": "15:15"
+        "airtime_ms": 942457,
+        "airtime": "15:42"
       },
       {
         "talkgroup": 32004,
-        "airtime_ms": 869972,
-        "airtime": "14:29"
+        "airtime_ms": 892078,
+        "airtime": "14:52"
       },
       {
         "talkgroup": 12055,
@@ -86,44 +86,52 @@
       },
       {
         "talkgroup": 12071,
-        "airtime_ms": 662757,
-        "airtime": "11:02"
+        "airtime_ms": 737335,
+        "airtime": "12:17"
+      },
+      {
+        "talkgroup": 12066,
+        "airtime_ms": 684855,
+        "airtime": "11:24"
       },
       {
         "talkgroup": 12081,
-        "airtime_ms": 626943,
-        "airtime": "10:26"
-      },
-      {
-        "talkgroup": 12003,
-        "airtime_ms": 618653,
-        "airtime": "10:18"
+        "airtime_ms": 641517,
+        "airtime": "10:41"
       }
     ],
     "top_radios": [
       [
         41012,
-        446
+        453
       ],
       [
         41011,
-        308
+        319
       ],
       [
         41005,
-        205
+        206
+      ],
+      [
+        41006,
+        75
       ],
       [
         41015,
         70
       ],
       [
-        41006,
-        69
+        2132105,
+        70
       ],
       [
         2143224,
-        66
+        68
+      ],
+      [
+        2163001,
+        63
       ],
       [
         41003,
@@ -132,14 +140,6 @@
       [
         2119108,
         60
-      ],
-      [
-        2132105,
-        60
-      ],
-      [
-        2163001,
-        58
       ]
     ],
     "top_radio_aliases": [],
@@ -156,7 +156,7 @@
       "2026-04-11T08": 408,
       "2026-04-11T09": 582,
       "2026-04-11T10": 627,
-      "2026-04-11T11": 502
+      "2026-04-11T11": 624
     }
   },
   "calls": [
@@ -48503,6 +48503,1348 @@
       "duration_ms": 4829,
       "duration": "0:04",
       "frequency": 852.1875,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:40:12",
+      "talkgroup": 12066,
+      "talkgroup_alias": null,
+      "radio_id": 2132101,
+      "radio_alias": null,
+      "duration_ms": 5971,
+      "duration": "0:05",
+      "frequency": 853.25,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:40:16",
+      "talkgroup": 12059,
+      "talkgroup_alias": null,
+      "radio_id": 2124114,
+      "radio_alias": null,
+      "duration_ms": 4187,
+      "duration": "0:04",
+      "frequency": 853.25,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:40:20",
+      "talkgroup": 12066,
+      "talkgroup_alias": null,
+      "radio_id": 2132105,
+      "radio_alias": null,
+      "duration_ms": 6902,
+      "duration": "0:06",
+      "frequency": 853.25,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:40:41",
+      "talkgroup": 12040,
+      "talkgroup_alias": null,
+      "radio_id": 2143206,
+      "radio_alias": null,
+      "duration_ms": 3548,
+      "duration": "0:03",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:41:01",
+      "talkgroup": 12071,
+      "talkgroup_alias": null,
+      "radio_id": 2163212,
+      "radio_alias": null,
+      "duration_ms": 5550,
+      "duration": "0:05",
+      "frequency": 851.4125,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:41:10",
+      "talkgroup": 12071,
+      "talkgroup_alias": null,
+      "radio_id": 2163001,
+      "radio_alias": null,
+      "duration_ms": 3757,
+      "duration": "0:03",
+      "frequency": 852.1875,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:41:13",
+      "talkgroup": 12066,
+      "talkgroup_alias": null,
+      "radio_id": 2132109,
+      "radio_alias": null,
+      "duration_ms": 9780,
+      "duration": "0:09",
+      "frequency": 852.1875,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:41:15",
+      "talkgroup": 12071,
+      "talkgroup_alias": null,
+      "radio_id": 2163212,
+      "radio_alias": null,
+      "duration_ms": 83,
+      "duration": "0:00",
+      "frequency": 852.1875,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:41:15",
+      "talkgroup": 12071,
+      "talkgroup_alias": null,
+      "radio_id": 2163212,
+      "radio_alias": null,
+      "duration_ms": 5248,
+      "duration": "0:05",
+      "frequency": 852.1875,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:41:29",
+      "talkgroup": 12071,
+      "talkgroup_alias": null,
+      "radio_id": 2163001,
+      "radio_alias": null,
+      "duration_ms": 3807,
+      "duration": "0:03",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:41:54",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 2111210,
+      "radio_alias": null,
+      "duration_ms": 2008,
+      "duration": "0:02",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:41:58",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 41011,
+      "radio_alias": null,
+      "duration_ms": 2128,
+      "duration": "0:02",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:42:01",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 2111210,
+      "radio_alias": null,
+      "duration_ms": 4550,
+      "duration": "0:04",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:42:06",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 41011,
+      "radio_alias": null,
+      "duration_ms": 1857,
+      "duration": "0:01",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:42:08",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 2111210,
+      "radio_alias": null,
+      "duration_ms": 1829,
+      "duration": "0:01",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:42:11",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 41011,
+      "radio_alias": null,
+      "duration_ms": 1427,
+      "duration": "0:01",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:42:13",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 2111210,
+      "radio_alias": null,
+      "duration_ms": 3102,
+      "duration": "0:03",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:42:17",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 41011,
+      "radio_alias": null,
+      "duration_ms": 3452,
+      "duration": "0:03",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:42:19",
+      "talkgroup": 12071,
+      "talkgroup_alias": null,
+      "radio_id": 2163212,
+      "radio_alias": null,
+      "duration_ms": 4348,
+      "duration": "0:04",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:42:24",
+      "talkgroup": 12066,
+      "talkgroup_alias": null,
+      "radio_id": 2132109,
+      "radio_alias": null,
+      "duration_ms": 4207,
+      "duration": "0:04",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:42:25",
+      "talkgroup": 12071,
+      "talkgroup_alias": null,
+      "radio_id": 2163001,
+      "radio_alias": null,
+      "duration_ms": 2652,
+      "duration": "0:02",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:42:29",
+      "talkgroup": 12066,
+      "talkgroup_alias": null,
+      "radio_id": 2132105,
+      "radio_alias": null,
+      "duration_ms": 1980,
+      "duration": "0:01",
+      "frequency": 851.4125,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:42:32",
+      "talkgroup": 12066,
+      "talkgroup_alias": null,
+      "radio_id": 2132109,
+      "radio_alias": null,
+      "duration_ms": 11553,
+      "duration": "0:11",
+      "frequency": 851.4125,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:42:37",
+      "talkgroup": 22005,
+      "talkgroup_alias": null,
+      "radio_id": 2236107,
+      "radio_alias": null,
+      "duration_ms": 4878,
+      "duration": "0:04",
+      "frequency": 851.4125,
+      "encrypted": false
+    },
+    {
+      "time": "2026-04-11T11:42:42",
+      "talkgroup": 12059,
+      "talkgroup_alias": null,
+      "radio_id": 2124102,
+      "radio_alias": null,
+      "duration_ms": 4658,
+      "duration": "0:04",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:42:44",
+      "talkgroup": 12066,
+      "talkgroup_alias": null,
+      "radio_id": 2132105,
+      "radio_alias": null,
+      "duration_ms": 8626,
+      "duration": "0:08",
+      "frequency": 851.4125,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:42:47",
+      "talkgroup": 12001,
+      "talkgroup_alias": null,
+      "radio_id": 41012,
+      "radio_alias": null,
+      "duration_ms": 3936,
+      "duration": "0:03",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:42:47",
+      "talkgroup": 22005,
+      "talkgroup_alias": null,
+      "radio_id": 41006,
+      "radio_alias": null,
+      "duration_ms": 5100,
+      "duration": "0:05",
+      "frequency": 851.4125,
+      "encrypted": false
+    },
+    {
+      "time": "2026-04-11T11:42:50",
+      "talkgroup": 12059,
+      "talkgroup_alias": null,
+      "radio_id": 2124107,
+      "radio_alias": null,
+      "duration_ms": 7256,
+      "duration": "0:07",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:42:53",
+      "talkgroup": 12066,
+      "talkgroup_alias": null,
+      "radio_id": 2132105,
+      "radio_alias": null,
+      "duration_ms": 3030,
+      "duration": "0:03",
+      "frequency": 851.4125,
+      "encrypted": false
+    },
+    {
+      "time": "2026-04-11T11:42:56",
+      "talkgroup": 22006,
+      "talkgroup_alias": null,
+      "radio_id": 2214204,
+      "radio_alias": null,
+      "duration_ms": 5954,
+      "duration": "0:05",
+      "frequency": 852.6625,
+      "encrypted": false
+    },
+    {
+      "time": "2026-04-11T11:42:57",
+      "talkgroup": 12066,
+      "talkgroup_alias": null,
+      "radio_id": 2132109,
+      "radio_alias": null,
+      "duration_ms": 3007,
+      "duration": "0:03",
+      "frequency": 853.25,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:43:00",
+      "talkgroup": 12059,
+      "talkgroup_alias": null,
+      "radio_id": 2124108,
+      "radio_alias": null,
+      "duration_ms": 3658,
+      "duration": "0:03",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:43:01",
+      "talkgroup": 12071,
+      "talkgroup_alias": null,
+      "radio_id": 2163212,
+      "radio_alias": null,
+      "duration_ms": 5027,
+      "duration": "0:05",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:43:03",
+      "talkgroup": 22006,
+      "talkgroup_alias": null,
+      "radio_id": 41006,
+      "radio_alias": null,
+      "duration_ms": 3059,
+      "duration": "0:03",
+      "frequency": 852.6625,
+      "encrypted": false
+    },
+    {
+      "time": "2026-04-11T11:43:07",
+      "talkgroup": 12071,
+      "talkgroup_alias": null,
+      "radio_id": 2163001,
+      "radio_alias": null,
+      "duration_ms": 5750,
+      "duration": "0:05",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:43:07",
+      "talkgroup": 22006,
+      "talkgroup_alias": null,
+      "radio_id": 2214204,
+      "radio_alias": null,
+      "duration_ms": 4899,
+      "duration": "0:04",
+      "frequency": 852.6625,
+      "encrypted": false
+    },
+    {
+      "time": "2026-04-11T11:43:14",
+      "talkgroup": 12071,
+      "talkgroup_alias": null,
+      "radio_id": 2163212,
+      "radio_alias": null,
+      "duration_ms": 3885,
+      "duration": "0:03",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:43:16",
+      "talkgroup": 22005,
+      "talkgroup_alias": null,
+      "radio_id": 2236105,
+      "radio_alias": null,
+      "duration_ms": 5579,
+      "duration": "0:05",
+      "frequency": 852.975,
+      "encrypted": false
+    },
+    {
+      "time": "2026-04-11T11:43:21",
+      "talkgroup": 12001,
+      "talkgroup_alias": null,
+      "radio_id": 41012,
+      "radio_alias": null,
+      "duration_ms": 4130,
+      "duration": "0:04",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:43:24",
+      "talkgroup": 22005,
+      "talkgroup_alias": null,
+      "radio_id": 41006,
+      "radio_alias": null,
+      "duration_ms": 5801,
+      "duration": "0:05",
+      "frequency": 852.975,
+      "encrypted": false
+    },
+    {
+      "time": "2026-04-11T11:43:28",
+      "talkgroup": 12001,
+      "talkgroup_alias": null,
+      "radio_id": 2123213,
+      "radio_alias": null,
+      "duration_ms": 3251,
+      "duration": "0:03",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:43:28",
+      "talkgroup": 12066,
+      "talkgroup_alias": null,
+      "radio_id": 2132105,
+      "radio_alias": null,
+      "duration_ms": 3600,
+      "duration": "0:03",
+      "frequency": 853.25,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:43:29",
+      "talkgroup": 12040,
+      "talkgroup_alias": null,
+      "radio_id": 2143215,
+      "radio_alias": null,
+      "duration_ms": 3958,
+      "duration": "0:03",
+      "frequency": 853.25,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:43:32",
+      "talkgroup": 12001,
+      "talkgroup_alias": null,
+      "radio_id": 41012,
+      "radio_alias": null,
+      "duration_ms": 3309,
+      "duration": "0:03",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:43:43",
+      "talkgroup": 22005,
+      "talkgroup_alias": null,
+      "radio_id": 41006,
+      "radio_alias": null,
+      "duration_ms": 21254,
+      "duration": "0:21",
+      "frequency": 851.4125,
+      "encrypted": false
+    },
+    {
+      "time": "2026-04-11T11:43:47",
+      "talkgroup": 12081,
+      "talkgroup_alias": null,
+      "radio_id": 2111210,
+      "radio_alias": null,
+      "duration_ms": 2957,
+      "duration": "0:02",
+      "frequency": 851.4125,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:43:48",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 2111209,
+      "radio_alias": null,
+      "duration_ms": 3753,
+      "duration": "0:03",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:43:52",
+      "talkgroup": 12081,
+      "talkgroup_alias": null,
+      "radio_id": 2111221,
+      "radio_alias": null,
+      "duration_ms": 2578,
+      "duration": "0:02",
+      "frequency": 851.4125,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:43:53",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 41011,
+      "radio_alias": null,
+      "duration_ms": 1780,
+      "duration": "0:01",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:43:56",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 2111209,
+      "radio_alias": null,
+      "duration_ms": 6456,
+      "duration": "0:06",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:44:03",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 41011,
+      "radio_alias": null,
+      "duration_ms": 2803,
+      "duration": "0:02",
+      "frequency": 851.4125,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:44:05",
+      "talkgroup": 22005,
+      "talkgroup_alias": null,
+      "radio_id": 2236105,
+      "radio_alias": null,
+      "duration_ms": 4553,
+      "duration": "0:04",
+      "frequency": 851.4125,
+      "encrypted": false
+    },
+    {
+      "time": "2026-04-11T11:44:16",
+      "talkgroup": 12071,
+      "talkgroup_alias": null,
+      "radio_id": 2163212,
+      "radio_alias": null,
+      "duration_ms": 4032,
+      "duration": "0:04",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:44:27",
+      "talkgroup": 12071,
+      "talkgroup_alias": null,
+      "radio_id": 2163212,
+      "radio_alias": null,
+      "duration_ms": 2655,
+      "duration": "0:02",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:44:30",
+      "talkgroup": 12053,
+      "talkgroup_alias": null,
+      "radio_id": 2118220,
+      "radio_alias": null,
+      "duration_ms": 6555,
+      "duration": "0:06",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:44:30",
+      "talkgroup": 12071,
+      "talkgroup_alias": null,
+      "radio_id": 2163001,
+      "radio_alias": null,
+      "duration_ms": 18330,
+      "duration": "0:18",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:44:32",
+      "talkgroup": 12066,
+      "talkgroup_alias": null,
+      "radio_id": 2132105,
+      "radio_alias": null,
+      "duration_ms": 4579,
+      "duration": "0:04",
+      "frequency": 852.1875,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:44:37",
+      "talkgroup": 12066,
+      "talkgroup_alias": null,
+      "radio_id": 2132221,
+      "radio_alias": null,
+      "duration_ms": 11355,
+      "duration": "0:11",
+      "frequency": 852.1875,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:44:44",
+      "talkgroup": 12053,
+      "talkgroup_alias": null,
+      "radio_id": 2118224,
+      "radio_alias": null,
+      "duration_ms": 4901,
+      "duration": "0:04",
+      "frequency": 852.1875,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:44:49",
+      "talkgroup": 12066,
+      "talkgroup_alias": null,
+      "radio_id": 2132105,
+      "radio_alias": null,
+      "duration_ms": 2355,
+      "duration": "0:02",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:44:49",
+      "talkgroup": 12029,
+      "talkgroup_alias": null,
+      "radio_id": null,
+      "radio_alias": null,
+      "duration_ms": 4577,
+      "duration": "0:04",
+      "frequency": 853.25,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:44:49",
+      "talkgroup": 12053,
+      "talkgroup_alias": null,
+      "radio_id": 2118220,
+      "radio_alias": null,
+      "duration_ms": 4027,
+      "duration": "0:04",
+      "frequency": 853.25,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:44:50",
+      "talkgroup": 12071,
+      "talkgroup_alias": null,
+      "radio_id": 2163212,
+      "radio_alias": null,
+      "duration_ms": 9454,
+      "duration": "0:09",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:44:53",
+      "talkgroup": 12066,
+      "talkgroup_alias": null,
+      "radio_id": 2132221,
+      "radio_alias": null,
+      "duration_ms": 3784,
+      "duration": "0:03",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:44:57",
+      "talkgroup": 12066,
+      "talkgroup_alias": null,
+      "radio_id": 2132105,
+      "radio_alias": null,
+      "duration_ms": 1879,
+      "duration": "0:01",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:44:58",
+      "talkgroup": 12001,
+      "talkgroup_alias": null,
+      "radio_id": 2122108,
+      "radio_alias": null,
+      "duration_ms": 4533,
+      "duration": "0:04",
+      "frequency": 852.1875,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:45:00",
+      "talkgroup": 12066,
+      "talkgroup_alias": null,
+      "radio_id": 2132221,
+      "radio_alias": null,
+      "duration_ms": 5704,
+      "duration": "0:05",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:45:03",
+      "talkgroup": 12001,
+      "talkgroup_alias": null,
+      "radio_id": 41012,
+      "radio_alias": null,
+      "duration_ms": 2205,
+      "duration": "0:02",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:45:07",
+      "talkgroup": 12001,
+      "talkgroup_alias": null,
+      "radio_id": 2122108,
+      "radio_alias": null,
+      "duration_ms": 10231,
+      "duration": "0:10",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:45:07",
+      "talkgroup": 12066,
+      "talkgroup_alias": null,
+      "radio_id": 2132105,
+      "radio_alias": null,
+      "duration_ms": 8300,
+      "duration": "0:08",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:45:17",
+      "talkgroup": 12066,
+      "talkgroup_alias": null,
+      "radio_id": 2132221,
+      "radio_alias": null,
+      "duration_ms": 11352,
+      "duration": "0:11",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:45:19",
+      "talkgroup": 12001,
+      "talkgroup_alias": null,
+      "radio_id": 41012,
+      "radio_alias": null,
+      "duration_ms": 2655,
+      "duration": "0:02",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:45:30",
+      "talkgroup": 12066,
+      "talkgroup_alias": null,
+      "radio_id": 2132105,
+      "radio_alias": null,
+      "duration_ms": 3459,
+      "duration": "0:03",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:45:41",
+      "talkgroup": 12059,
+      "talkgroup_alias": null,
+      "radio_id": 2124102,
+      "radio_alias": null,
+      "duration_ms": 5110,
+      "duration": "0:05",
+      "frequency": 853.25,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:45:53",
+      "talkgroup": 12059,
+      "talkgroup_alias": null,
+      "radio_id": 2124108,
+      "radio_alias": null,
+      "duration_ms": 2353,
+      "duration": "0:02",
+      "frequency": 851.4125,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:45:56",
+      "talkgroup": 12059,
+      "talkgroup_alias": null,
+      "radio_id": 2124219,
+      "radio_alias": null,
+      "duration_ms": 9149,
+      "duration": "0:09",
+      "frequency": 851.4125,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:46:07",
+      "talkgroup": 12059,
+      "talkgroup_alias": null,
+      "radio_id": 2124102,
+      "radio_alias": null,
+      "duration_ms": 16798,
+      "duration": "0:16",
+      "frequency": 851.4125,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:46:11",
+      "talkgroup": 22007,
+      "talkgroup_alias": null,
+      "radio_id": 2236107,
+      "radio_alias": null,
+      "duration_ms": 10602,
+      "duration": "0:10",
+      "frequency": 851.4125,
+      "encrypted": false
+    },
+    {
+      "time": "2026-04-11T11:46:23",
+      "talkgroup": 22007,
+      "talkgroup_alias": null,
+      "radio_id": 41006,
+      "radio_alias": null,
+      "duration_ms": 5410,
+      "duration": "0:05",
+      "frequency": 851.4125,
+      "encrypted": false
+    },
+    {
+      "time": "2026-04-11T11:46:25",
+      "talkgroup": 22005,
+      "talkgroup_alias": null,
+      "radio_id": 2236113,
+      "radio_alias": null,
+      "duration_ms": 4808,
+      "duration": "0:04",
+      "frequency": 851.4125,
+      "encrypted": false
+    },
+    {
+      "time": "2026-04-11T11:46:31",
+      "talkgroup": 32005,
+      "talkgroup_alias": null,
+      "radio_id": 2373222,
+      "radio_alias": null,
+      "duration_ms": 3756,
+      "duration": "0:03",
+      "frequency": 852.975,
+      "encrypted": false
+    },
+    {
+      "time": "2026-04-11T11:46:31",
+      "talkgroup": 22005,
+      "talkgroup_alias": null,
+      "radio_id": 41006,
+      "radio_alias": null,
+      "duration_ms": 4751,
+      "duration": "0:04",
+      "frequency": 852.975,
+      "encrypted": false
+    },
+    {
+      "time": "2026-04-11T11:46:33",
+      "talkgroup": 12059,
+      "talkgroup_alias": null,
+      "radio_id": 2124102,
+      "radio_alias": null,
+      "duration_ms": 8257,
+      "duration": "0:08",
+      "frequency": 851.4125,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:46:35",
+      "talkgroup": 32005,
+      "talkgroup_alias": null,
+      "radio_id": 41005,
+      "radio_alias": null,
+      "duration_ms": 4659,
+      "duration": "0:04",
+      "frequency": 852.975,
+      "encrypted": false
+    },
+    {
+      "time": "2026-04-11T11:46:48",
+      "talkgroup": 12059,
+      "talkgroup_alias": null,
+      "radio_id": 2124219,
+      "radio_alias": null,
+      "duration_ms": 4026,
+      "duration": "0:04",
+      "frequency": 853.25,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:46:58",
+      "talkgroup": 12059,
+      "talkgroup_alias": null,
+      "radio_id": 2124102,
+      "radio_alias": null,
+      "duration_ms": 8184,
+      "duration": "0:08",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:47:38",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 2111210,
+      "radio_alias": null,
+      "duration_ms": 3199,
+      "duration": "0:03",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:47:39",
+      "talkgroup": 12042,
+      "talkgroup_alias": null,
+      "radio_id": 2111114,
+      "radio_alias": null,
+      "duration_ms": 6046,
+      "duration": "0:06",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:47:43",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 41011,
+      "radio_alias": null,
+      "duration_ms": 4208,
+      "duration": "0:04",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:47:48",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 2111209,
+      "radio_alias": null,
+      "duration_ms": 3130,
+      "duration": "0:03",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:47:49",
+      "talkgroup": 12081,
+      "talkgroup_alias": null,
+      "radio_id": 2111114,
+      "radio_alias": null,
+      "duration_ms": 4638,
+      "duration": "0:04",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:47:52",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 41011,
+      "radio_alias": null,
+      "duration_ms": 3419,
+      "duration": "0:03",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:47:55",
+      "talkgroup": 12040,
+      "talkgroup_alias": null,
+      "radio_id": 2143001,
+      "radio_alias": null,
+      "duration_ms": 4410,
+      "duration": "0:04",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:47:58",
+      "talkgroup": 12081,
+      "talkgroup_alias": null,
+      "radio_id": 2111114,
+      "radio_alias": null,
+      "duration_ms": 4401,
+      "duration": "0:04",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:48:03",
+      "talkgroup": 12040,
+      "talkgroup_alias": null,
+      "radio_id": 2143215,
+      "radio_alias": null,
+      "duration_ms": 3485,
+      "duration": "0:03",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:48:05",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 2111114,
+      "radio_alias": null,
+      "duration_ms": 5107,
+      "duration": "0:05",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:48:07",
+      "talkgroup": 12040,
+      "talkgroup_alias": null,
+      "radio_id": 2143001,
+      "radio_alias": null,
+      "duration_ms": 3789,
+      "duration": "0:03",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:48:10",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 41011,
+      "radio_alias": null,
+      "duration_ms": 1731,
+      "duration": "0:01",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:48:12",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 2111114,
+      "radio_alias": null,
+      "duration_ms": 4053,
+      "duration": "0:04",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:48:17",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 41011,
+      "radio_alias": null,
+      "duration_ms": 1451,
+      "duration": "0:01",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:48:19",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 2111114,
+      "radio_alias": null,
+      "duration_ms": 3758,
+      "duration": "0:03",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:48:23",
+      "talkgroup": 12002,
+      "talkgroup_alias": null,
+      "radio_id": 41011,
+      "radio_alias": null,
+      "duration_ms": 5129,
+      "duration": "0:05",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:48:44",
+      "talkgroup": 12029,
+      "talkgroup_alias": null,
+      "radio_id": null,
+      "radio_alias": null,
+      "duration_ms": 4173,
+      "duration": "0:04",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:48:48",
+      "talkgroup": 12029,
+      "talkgroup_alias": null,
+      "radio_id": null,
+      "radio_alias": null,
+      "duration_ms": 14301,
+      "duration": "0:14",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:48:51",
+      "talkgroup": 12040,
+      "talkgroup_alias": null,
+      "radio_id": 2143223,
+      "radio_alias": null,
+      "duration_ms": 6653,
+      "duration": "0:06",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:49:01",
+      "talkgroup": 12040,
+      "talkgroup_alias": null,
+      "radio_id": 2143207,
+      "radio_alias": null,
+      "duration_ms": 6504,
+      "duration": "0:06",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:49:06",
+      "talkgroup": 12001,
+      "talkgroup_alias": null,
+      "radio_id": 41012,
+      "radio_alias": null,
+      "duration_ms": 4297,
+      "duration": "0:04",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:49:10",
+      "talkgroup": 12040,
+      "talkgroup_alias": null,
+      "radio_id": 2143224,
+      "radio_alias": null,
+      "duration_ms": 3136,
+      "duration": "0:03",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:49:10",
+      "talkgroup": 12001,
+      "talkgroup_alias": null,
+      "radio_id": 2112207,
+      "radio_alias": null,
+      "duration_ms": 1804,
+      "duration": "0:01",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:49:12",
+      "talkgroup": 32004,
+      "talkgroup_alias": null,
+      "radio_id": null,
+      "radio_alias": null,
+      "duration_ms": 22106,
+      "duration": "0:22",
+      "frequency": 852.975,
+      "encrypted": false
+    },
+    {
+      "time": "2026-04-11T11:49:12",
+      "talkgroup": 12029,
+      "talkgroup_alias": null,
+      "radio_id": null,
+      "radio_alias": null,
+      "duration_ms": 3978,
+      "duration": "0:03",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:49:13",
+      "talkgroup": 12001,
+      "talkgroup_alias": null,
+      "radio_id": 41012,
+      "radio_alias": null,
+      "duration_ms": 7603,
+      "duration": "0:07",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:49:14",
+      "talkgroup": 12040,
+      "talkgroup_alias": null,
+      "radio_id": 2143207,
+      "radio_alias": null,
+      "duration_ms": 7156,
+      "duration": "0:07",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:49:19",
+      "talkgroup": 22004,
+      "talkgroup_alias": null,
+      "radio_id": null,
+      "radio_alias": null,
+      "duration_ms": 34452,
+      "duration": "0:34",
+      "frequency": 852.975,
+      "encrypted": false
+    },
+    {
+      "time": "2026-04-11T11:49:22",
+      "talkgroup": 12040,
+      "talkgroup_alias": null,
+      "radio_id": null,
+      "radio_alias": null,
+      "duration_ms": 703,
+      "duration": "0:00",
+      "frequency": 852.6625,
+      "encrypted": false
+    },
+    {
+      "time": "2026-04-11T11:49:25",
+      "talkgroup": 12001,
+      "talkgroup_alias": null,
+      "radio_id": 2112207,
+      "radio_alias": null,
+      "duration_ms": 3833,
+      "duration": "0:03",
+      "frequency": 851.4125,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:49:35",
+      "talkgroup": 12040,
+      "talkgroup_alias": null,
+      "radio_id": 2143224,
+      "radio_alias": null,
+      "duration_ms": 3904,
+      "duration": "0:03",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:49:40",
+      "talkgroup": 12040,
+      "talkgroup_alias": null,
+      "radio_id": 2143207,
+      "radio_alias": null,
+      "duration_ms": 4302,
+      "duration": "0:04",
+      "frequency": 852.975,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:49:43",
+      "talkgroup": 12086,
+      "talkgroup_alias": null,
+      "radio_id": 2145204,
+      "radio_alias": null,
+      "duration_ms": 4158,
+      "duration": "0:04",
+      "frequency": 852.1875,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:49:54",
+      "talkgroup": 12086,
+      "talkgroup_alias": null,
+      "radio_id": 2145202,
+      "radio_alias": null,
+      "duration_ms": 3367,
+      "duration": "0:03",
+      "frequency": 852.6625,
+      "encrypted": true
+    },
+    {
+      "time": "2026-04-11T11:49:58",
+      "talkgroup": 12086,
+      "talkgroup_alias": null,
+      "radio_id": 2145204,
+      "radio_alias": null,
+      "duration_ms": 8377,
+      "duration": "0:08",
+      "frequency": 852.6625,
       "encrypted": true
     }
   ]
